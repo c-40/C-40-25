@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    long int num=10;
+    long int *ptr;
+    printf("num's address %p\n",&num);
+    ptr=&num;
+    
+    printf("pointer's address:%p\n",&ptr);
+    
+    printf("pointer's size:%ld bytes\n",sizeof(ptr));
+    printf("value pointed to:%ld\n",*ptr);
+}
+Output-
+num's address 0x7fff0c8ab8d8
+pointer's address:0x7fff0c8ab8e0
+pointer's size:8 bytes
+value pointed to:10
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
