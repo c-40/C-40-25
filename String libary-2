@@ -1,0 +1,18 @@
+//String copy//
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str1[]="Ice";
+    char str2[]="Cream";
+    int i,j;
+    i=strcmp(str1,"Hello");
+    j=strcmp(str2,"Cream");
+    printf("%d,%d",i,j);
+    return 0;
+}
+Input-
+1,0
+
+...Program finished with exit code 0
+Press ENTER to exit console.
