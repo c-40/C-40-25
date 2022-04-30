@@ -1,0 +1,17 @@
+Output-
+//String Lenght//
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char arr[]="Ashwini";
+    int len1=strlen(arr);
+    printf("String=%s length=%d\n",arr,len1);
+    return 0;
+}
+Output-
+String=Ashwini length=7
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
