@@ -13,13 +13,13 @@ int main()
         printf("Enter a number in between 0-9\n");
         break;
         case 1:
-        printf("Enter a number in between 0-19\n");
+        printf("Enter a number in between 10-19\n");
         break;
         case 2:
-        printf("Enter a number in between 0-29\n");
+        printf("Enter a number in between 20-29\n");
         break;
         case 3:
-        printf("Enter a number in between 0-39\n");
+        printf("Enter a number in between 30-39\n");
         break;
         default:
         printf("number i not in range");
