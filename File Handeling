@@ -1,0 +1,15 @@
+Input-
+#include<stdio.h>
+int main()
+{
+File*fp;
+fp=fopen(/home/ttt/Desktop/sample.txt","w");
+fprintf(fp,"Welcome to spoken-tutorial.\n");
+fprintf("This is an text example.\n");
+fclosed(fp);
+return 0;
+}
+
+Output-
+Welcome to spoken-tutorial
+This is an text example
